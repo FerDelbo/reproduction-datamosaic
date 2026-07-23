@@ -1,0 +1,31 @@
+# =============================================================================
+# DataMosaic - Python dependencies
+# =============================================================================
+# Python 3.8+ required
+
+# ---- Web framework / API ----
+Flask>=2.0.0
+Flask-CORS>=3.0.0
+websockets>=10.0
+
+# ---- Document processing ----
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+python-docx>=0.8.11
+openpyxl>=3.1.0
+
+# ---- Data processing ----
+pandas>=1.5.0
+numpy>=1.21.0
+
+# ---- LLM clients ----
+openai>=1.0.0
+dashscope>=1.14.0
+anthropic>=0.18.0
+
+# ---- Environment / config ----
+python-dotenv>=0.19.0
+python-dateutil>=2.8.0
+
+# ---- Optional: development / testing ----
+pytest>=7.0.0

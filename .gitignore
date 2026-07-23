@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Coverage / tests
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and runtime artifacts
+*.log
+llm_logs/
+backend/logs/
+backend/history/
+backend/output/
+backend/uploads/
+backend/.cache/
+.cache/
+*.cache/
+
+# Generated artifacts
+dataset_output/
+
+# Environment variables (use .env.example as template)
+llm/.env
+
+# Node / Frontend
+frontend/node_modules/
+frontend/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
