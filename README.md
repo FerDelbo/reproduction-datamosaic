@@ -275,3 +275,32 @@ for full terms.
 ## 🙏 Acknowledgements
 
 DataMosaic uses [Material-UI](https://mui.com) for the frontend.
+
+## 📝 Citation
+
+If you find this work helpful, please consider citing our papers:
+
+```bibtex
+@inproceedings{datamosaic,
+  title={Document-to-Database: Extraction Meets Relational Semantics},
+  author={Zhang, Zhengxuan and Liang, Zhuowen and Chen, Jiazhuo and Wang, Haixun and Tang, Nan},
+  year={2026},
+  journal={Proceedings of the VLDB Endowment},
+  volume={19},
+  number={9},
+  pages={2522--2535},
+  year={2026},
+  publisher={VLDB Endowment}
+}
+
+@inproceedings{datamosaic_demo,
+  title={DataMosaic: An Interactive Demonstration of Constraint-Driven Document-to-Database Construction},
+  author={Zhang, Zhengxuan and Liang, Zhuowen and Wang, Haixun and Tang, Nan},
+  journal={Proceedings of the VLDB Endowment},
+  volume={19},
+  number={12},
+  pages={4570--4573},
+  year={2026},
+  publisher={VLDB Endowment},
+}
+```
