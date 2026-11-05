@@ -11,6 +11,7 @@ from ...memory import TableRow, CellData, Fix
 from ...core.ids import IdGenerator
 
 from llm.main import get_answer
+from llm.utils import load_env_config
 
 from .entity_extractor import EntityExtractor
 from .relation_extractor import RelationExtractor
@@ -21,7 +22,9 @@ try:
     from pydantic import BaseModel, Field, create_model
     from langchain_core.output_parsers import PydanticOutputParser
     from langchain_openai import ChatOpenAI
-    from langchain.output_parsers import OutputFixingParser
+    from langchain_google_genai import ChatGoogleGenerativeAI
+    # from langchain.output_parsers import OutputFixingParser
+    from langchain_core.output_parsers import StrOutputParser   
     STRUCTURED_OUTPUT_AVAILABLE = True
 except ImportError:
     STRUCTURED_OUTPUT_AVAILABLE = False
@@ -32,49 +35,105 @@ except ImportError:
 
 class BaseExtractor:
     
-    def __init__(self, extractor_id: str = "BaseExtractor.v1"):
+    def __init__(self, extractor_id: str = "BaseExtractor.v1", enable_eae: bool = True):
         """
         Initialize the extractor.
 
         Args:
             extractor_id: Extractor identifier.
+            enable_eae: Enable the EAE strategy (entity-first scan tip appended to
+                the entity cold-start prompt). Can be overridden per run via
+                `context.enable_eae`.
         """
         self.extractor_id = extractor_id
+        self.enable_eae = enable_eae
         self.logger = logging.getLogger('doc2db.extractor')
         
         self.entity_extractor = EntityExtractor(logger=self.logger)
         self.relation_extractor = RelationExtractor(logger=self.logger)
         
         self.utils = ExtractorUtils(logger=self.logger)
-    
+
     def _get_model_api_config(self, model: str) -> Dict[str, Optional[str]]:
         """Get the API configuration for a given model name.
-
+ 
         Args:
             model: Model name.
-
+ 
         Returns:
             Dict containing api_base and api_key.
         """
+        def _normalize_base_url(url: Optional[str]) -> Optional[str]:
+            """Remove trailing /chat/completions - o ChatOpenAI ja adiciona isso sozinho."""
+            if not url:
+                return None
+            url = url.rstrip('/')
+            suffix = '/chat/completions'
+            if url.endswith(suffix):
+                url = url[:-len(suffix)]
+            return url
+ 
         model_lower = model.lower()
         
         if 'deepseek' in model_lower:
+            print("DEEPSEEK")
             return {
-                'api_base': os.getenv("DEEPSEEK_URL"),
+                'api_base': _normalize_base_url(os.getenv("DEEPSEEK_URL")),
                 'api_key': os.getenv("DEEPSEEK_KEY")
             }
         
         elif 'qwen' in model_lower:
+            print("qwen")
             return {
-                'api_base': os.getenv("QWEN_URL"),
+                'api_base': _normalize_base_url(os.getenv("QWEN_URL")),
                 'api_key': os.getenv("QWEN_KEY")
             }
         
         else:
+            env_config = load_env_config()
+            raw_base = env_config.get("API_URL") or os.getenv("API_URL") or os.getenv("OPENAI_API_BASE")
             return {
-                'api_base': os.getenv("API_URL") or os.getenv("OPENAI_API_BASE"),
-                'api_key': os.getenv("API_KEY") or os.getenv("OPENAI_API_KEY")
+                'api_base': _normalize_base_url(raw_base),
+                'api_key': env_config.get("API_KEY") or os.getenv("API_KEY") or os.getenv("OPENAI_API_KEY")
             }
+
+    
+    # def _get_model_api_config(self, model: str) -> Dict[str, Optional[str]]:
+    #     """Get the API configuration for a given model name.
+
+    #     Args:
+    #         model: Model name.
+
+    #     Returns:
+    #         Dict containing api_base and api_key.
+    #     """
+    #     model_lower = model.lower()
+        
+    #     if 'deepseek' in model_lower:
+    #         print("DEEPSEEK")
+    #         return {
+    #             'api_base': os.getenv("DEEPSEEK_URL"),
+    #             'api_key': os.getenv("DEEPSEEK_KEY")
+    #         }
+        
+    #     elif 'qwen' in model_lower:
+    #         print("qwen")
+    #         return {
+    #             'api_base': os.getenv("QWEN_URL"),
+    #             'api_key': os.getenv("QWEN_KEY")
+    #         }
+        
+    #     else:
+    #         env_config = load_env_config()
+    #         # return {
+    #         #     'api_base': os.getenv("API_URL") or os.getenv("OPENAI_API_BASE"),
+    #         #     'api_key': os.getenv("API_KEY") or os.getenv("OPENAI_API_KEY")
+    #         # }
+    #         return {
+    #                 'api_base': env_config.get("API_URL") or os.getenv("API_URL") or os.getenv("OPENAI_API_BASE"),
+    #                 'api_key': env_config.get("API_KEY") or os.getenv("API_KEY") or os.getenv("OPENAI_API_KEY")
+    #         # }
+    #         }
     
     def extract(self, text_contents: List[str], schema: Dict[str, Any], 
                 table_name: str, nl_prompt: str = "", context=None, 
@@ -96,7 +155,7 @@ class BaseExtractor:
         Returns:
             List of extracted table rows.
         """
-        self.logger.info(f"Starting extraction for table {table_name}")
+        self.logger.info(f"Starting extraction for table {table_name} (EAE={'on' if self._is_eae_enabled(context) else 'off'})")
         
         if isinstance(schema, str):
             if not schema.strip():
@@ -174,6 +233,12 @@ class BaseExtractor:
         self.logger.info(f"Extracted {len(all_rows)} rows in total")
         return all_rows
     
+    def _is_eae_enabled(self, context=None) -> bool:
+        """Resolve whether EAE is on: context.enable_eae overrides the constructor default."""
+        if context is not None and getattr(context, 'enable_eae', None) is not None:
+            return bool(context.enable_eae)
+        return self.enable_eae
+
     def _extract_with_cold_start(self, text_content: str, table_def: Dict[str, Any],
                                nl_prompt: str, doc_source: str, context=None, 
                                doc_index: int = 0, full_schema: Dict[str, Any] = None) -> List[TableRow]:
@@ -212,6 +277,8 @@ class BaseExtractor:
                 fallback_func=self._extract_with_fallback
             )
         else:
+            eae = self._is_eae_enabled(context)
+            self.logger.info(f"[Cold Start] EAE {'ENABLED' if eae else 'DISABLED'} for table {table_name}")
             self.logger.info(f"[Cold Start] Entity table extraction: {table_name}")
             return self.entity_extractor.extract_cold_start(
                 text_content, table_def, nl_prompt, doc_source, 
@@ -221,6 +288,7 @@ class BaseExtractor:
                 build_schema_context_func=self._build_schema_context,
                 parse_structured_response_func=self._parse_structured_response,
                 record_extraction_step_func=self._record_extraction_step,
+                enable_strategy=eae,
                 fallback_func=self._extract_with_fallback
             )
     
@@ -377,6 +445,7 @@ Additional Instructions: {nl_prompt if nl_prompt else 'No special requirements'}
                     'extraction_mode': extraction_mode,
                     'extracted_rows': row_count,
                     'model_used': model,
+                    'eae_enabled': self._is_eae_enabled(context),
                     'llm_input': prompt[:1000] + '...' if len(prompt) > 1000 else prompt,
                     'llm_output': llm_response[:1000] + '...' if len(llm_response) > 1000 else llm_response,
                 },

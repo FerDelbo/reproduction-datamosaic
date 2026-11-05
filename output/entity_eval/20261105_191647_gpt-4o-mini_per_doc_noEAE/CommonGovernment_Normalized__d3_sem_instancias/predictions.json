@@ -1,0 +1,42 @@
+{
+  "Agency": [],
+  "FundingAgency": [],
+  "Vendor": [],
+  "ContractingOffice": [],
+  "ProductServiceCode": [],
+  "Naics": [],
+  "Category": [
+    {
+      "level2_category": "Federal Technology Service (FTS)",
+      "level1_category": "Fiscal Obligation and Valuation Discrepancies"
+    },
+    {
+      "level2_category": "Public Buildings Service (PBS)",
+      "level1_category": "Fiscal Obligation and Valuation Discrepancies"
+    },
+    {
+      "level2_category": "Government-Wide Acquisition Contracts (GWACs)",
+      "level1_category": "Fiscal Obligation and Valuation Discrepancies"
+    },
+    {
+      "level2_category": "NAICS industry classification code",
+      "level1_category": "Instrument Categorization and Vendor Metrics"
+    },
+    {
+      "level2_category": "Product or Service Code (PSC)",
+      "level1_category": "Instrument Categorization and Vendor Metrics"
+    }
+  ],
+  "AwardType": [
+    {
+      "award_type_code": "D",
+      "award_type": "DELIVERY ORDER",
+      "award_type_key": 1
+    },
+    {
+      "award_type_code": "B",
+      "award_type": "BPA CALL",
+      "award_type_key": 2
+    }
+  ]
+}

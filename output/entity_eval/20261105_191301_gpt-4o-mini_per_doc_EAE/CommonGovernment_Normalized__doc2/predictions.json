@@ -1,0 +1,91 @@
+{
+  "Agency": [
+    {
+      "agency_code": "14",
+      "a_aid_acontid_agencyid": "1400",
+      "ag_name": "Department of the Interior",
+      "short_name": "DOI"
+    },
+    {
+      "agency_code": "69",
+      "a_aid_acontid_agencyid": "6900",
+      "ag_name": "Department of Transportation",
+      "short_name": "DOT"
+    }
+  ],
+  "FundingAgency": [
+    {
+      "funding_agency_key": 140,
+      "funding_agency": "14",
+      "funding_agency_name": "Department of the Interior"
+    },
+    {
+      "funding_agency_key": 690,
+      "funding_agency": "69",
+      "funding_agency_name": "Department of Transportation"
+    }
+  ],
+  "Vendor": [
+    {
+      "vend_dunsnumber": "334455667"
+    },
+    {
+      "vend_dunsnumber": "998877665"
+    }
+  ],
+  "ContractingOffice": [
+    {
+      "contractingofficeagencyid": "1406",
+      "co_name": "Bureau of Indian Affairs",
+      "co_state": "NM"
+    },
+    {
+      "contractingofficeagencyid": "6920",
+      "co_name": "FAA Regional Office"
+    }
+  ],
+  "ProductServiceCode": [
+    {
+      "psc_code": "Y1LB",
+      "psc_key": 920,
+      "psc_code_description": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS"
+    },
+    {
+      "psc_code": "V121",
+      "psc_key": 850,
+      "psc_code_description": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER"
+    }
+  ],
+  "Naics": [
+    {
+      "naics_code": "237310",
+      "naics_name": "Highway, Street, and Bridge Construction"
+    },
+    {
+      "naics_code": "488111",
+      "naics_name": "Air Traffic Control"
+    }
+  ],
+  "Category": [
+    {
+      "level2_category": "Highway Construction",
+      "level1_category": "Construction"
+    },
+    {
+      "level2_category": "Air Traffic Control",
+      "level1_category": "Transportation"
+    }
+  ],
+  "AwardType": [
+    {
+      "award_type_code": "D",
+      "award_type": "DEFINITIVE CONTRACT",
+      "award_type_key": 2
+    },
+    {
+      "award_type_code": "F",
+      "award_type": "DELIVERY ORDER",
+      "award_type_key": 3
+    }
+  ]
+}

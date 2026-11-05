@@ -1,0 +1,63 @@
+{
+  "Agency": [
+    {
+      "agency_code": "FT",
+      "a_aid_acontid_agencyid": "FTS",
+      "ag_name": "Federal Technology Service",
+      "short_name": "FTS"
+    },
+    {
+      "agency_code": "PB",
+      "a_aid_acontid_agencyid": "PBS",
+      "ag_name": "Public Buildings Service",
+      "short_name": "PBS"
+    }
+  ],
+  "FundingAgency": [],
+  "Vendor": [],
+  "ContractingOffice": [],
+  "ProductServiceCode": [
+    {
+      "psc_code": "FTS",
+      "psc_key": 1,
+      "psc_code_description": "Federal Technology Service"
+    },
+    {
+      "psc_code": "PBS",
+      "psc_key": 2,
+      "psc_code_description": "Public Buildings Service"
+    },
+    {
+      "psc_code": "GWAC",
+      "psc_key": 3,
+      "psc_code_description": "Government-Wide Acquisition Contracts"
+    }
+  ],
+  "Naics": [],
+  "Category": [
+    {
+      "level2_category": "Federal Technology Service (FTS)",
+      "level1_category": "GSA Programs"
+    },
+    {
+      "level2_category": "Public Buildings Service (PBS)",
+      "level1_category": "GSA Programs"
+    },
+    {
+      "level2_category": "Government-Wide Acquisition Contracts (GWACs)",
+      "level1_category": "GSA Programs"
+    }
+  ],
+  "AwardType": [
+    {
+      "award_type_code": "D",
+      "award_type": "DELIVERY ORDER",
+      "award_type_key": 1
+    },
+    {
+      "award_type_code": "B",
+      "award_type": "BPA CALL",
+      "award_type_key": 2
+    }
+  ]
+}

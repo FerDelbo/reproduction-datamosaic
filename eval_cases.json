@@ -1,0 +1,93 @@
+[
+  {
+    "name": "CommonGovernment/doc1",
+    "schema": "dataset/CommonGovernment/schema.json",
+    "docs": [
+      "dataset/CommonGovernment/docs/doc1.txt"
+    ],
+    "answer": "dataset/CommonGovernment/answer.json",
+    "table": "CommonGovernment"
+  },
+  {
+    "name": "CommonGovernment/doc2",
+    "schema": "dataset/CommonGovernment/schema.json",
+    "docs": [
+      "dataset/CommonGovernment/docs/doc2.txt"
+    ],
+    "answer": "dataset/CommonGovernment/answer2.json",
+    "table": "CommonGovernment"
+  },
+  {
+    "name": "CommonGovernment/d3_sem_instancias",
+    "schema": "dataset/CommonGovernment/schema.json",
+    "docs": [
+      "dataset/CommonGovernment/docs/d3.txt"
+    ],
+    "answer": null,
+    "table": "CommonGovernment"
+  },
+  {
+    "name": "Corporations_1/doc1",
+    "schema": "dataset/Corporations_1/schema.json",
+    "docs": [
+      "dataset/Corporations_1/docs/doc1.txt"
+    ],
+    "answer": "dataset/Corporations_1/answer.json",
+    "table": "Corporations",
+    "answer_filter": {
+      "field": "company_name",
+      "values": [
+        "Marginize"
+      ]
+    }
+  },
+  {
+    "name": "Corporations_1/doc2",
+    "schema": "dataset/Corporations_1/schema.json",
+    "docs": [
+      "dataset/Corporations_1/docs/doc2.txt"
+    ],
+    "answer": "dataset/Corporations_1/answer2.json",
+    "table": "Corporations"
+  },
+  {
+    "name": "CommonGovernment_Normalized/doc1",
+    "schema": "dataset/CommonGovernment/schema_commongov_normalized.json",
+    "docs": [
+      "dataset/CommonGovernment/docs/doc1.txt"
+    ],
+    "answer": "dataset/CommonGovernment/answer_normalized.json"
+  },
+  {
+    "name": "CommonGovernment_Normalized/doc2",
+    "schema": "dataset/CommonGovernment/schema_commongov_normalized.json",
+    "docs": [
+      "dataset/CommonGovernment/docs/doc2.txt"
+    ],
+    "answer": "dataset/CommonGovernment/answer2_normalized.json"
+  },
+  {
+    "name": "CommonGovernment_Normalized/d3_sem_instancias",
+    "schema": "dataset/CommonGovernment/schema_commongov_normalized.json",
+    "docs": [
+      "dataset/CommonGovernment/docs/d3.txt"
+    ],
+    "answer": null
+  },
+  {
+    "name": "Corporations_1_normalized/doc1",
+    "schema": "dataset/Corporations_1/schema_corporations_normalized.json",
+    "docs": [
+      "dataset/Corporations_1/docs/doc1.txt"
+    ],
+    "answer": "dataset/Corporations_1/answer_normalized_Marginize.json"
+  },
+  {
+    "name": "Corporations_1_normalized/doc2",
+    "schema": "dataset/Corporations_1/schema_corporations_normalized.json",
+    "docs": [
+      "dataset/Corporations_1/docs/doc2.txt"
+    ],
+    "answer": "dataset/Corporations_1/answer2_normalized.json"
+  }
+]

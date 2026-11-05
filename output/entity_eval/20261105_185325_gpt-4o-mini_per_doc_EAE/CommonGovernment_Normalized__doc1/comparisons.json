@@ -1,0 +1,1463 @@
+{
+  "Agency": [
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 47.0,
+        "generated_value": 47.0
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "agency_code",
+      "expected_value": "47",
+      "generated_value": "47"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "General Services Administration",
+        "generated_string": "General Services Administration"
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "ag_name",
+      "expected_value": "General Services Administration",
+      "generated_value": "General Services Administration"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "GSA",
+        "generated_string": "GSA"
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "short_name",
+      "expected_value": "GSA",
+      "generated_value": "GSA"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 4730.0,
+        "generated_value": 4730.0
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "4730",
+      "generated_value": "4730"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 97.0,
+        "generated_value": 97.0
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "agency_code",
+      "expected_value": "97",
+      "generated_value": "97"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Defense",
+        "generated_string": "Department of Defense"
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "ag_name",
+      "expected_value": "Department of Defense",
+      "generated_value": "Department of Defense"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOD",
+        "generated_string": "DOD"
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "short_name",
+      "expected_value": "DOD",
+      "generated_value": "DOD"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 9700.0,
+        "generated_value": 9700.0
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "9700",
+      "generated_value": "9700"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 75.0,
+        "generated_value": 75.0
+      },
+      "table": "agency",
+      "row_index": 2,
+      "field": "agency_code",
+      "expected_value": "75",
+      "generated_value": "75"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Health and Human Services",
+        "generated_string": "Department of Health and Human Services"
+      },
+      "table": "agency",
+      "row_index": 2,
+      "field": "ag_name",
+      "expected_value": "Department of Health and Human Services",
+      "generated_value": "Department of Health and Human Services"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "HHS",
+        "generated_string": "HHS"
+      },
+      "table": "agency",
+      "row_index": 2,
+      "field": "short_name",
+      "expected_value": "HHS",
+      "generated_value": "HHS"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 7500.0,
+        "generated_value": 7500.0
+      },
+      "table": "agency",
+      "row_index": 2,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "7500",
+      "generated_value": "7500"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 89.0,
+        "generated_value": 89.0
+      },
+      "table": "agency",
+      "row_index": 3,
+      "field": "agency_code",
+      "expected_value": "89",
+      "generated_value": "89"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Energy",
+        "generated_string": "Department of Energy"
+      },
+      "table": "agency",
+      "row_index": 3,
+      "field": "ag_name",
+      "expected_value": "Department of Energy",
+      "generated_value": "Department of Energy"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOE",
+        "generated_string": "DOE"
+      },
+      "table": "agency",
+      "row_index": 3,
+      "field": "short_name",
+      "expected_value": "DOE",
+      "generated_value": "DOE"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 8900.0,
+        "generated_value": 8900.0
+      },
+      "table": "agency",
+      "row_index": 3,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "8900",
+      "generated_value": "8900"
+    }
+  ],
+  "FundingAgency": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "General Services Administration",
+        "generated_string": "General Services Administration"
+      },
+      "table": "fundingagency",
+      "row_index": 0,
+      "field": "funding_agency_name",
+      "expected_value": "General Services Administration",
+      "generated_value": "General Services Administration"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 4730.0,
+        "generated_value": 4730.0
+      },
+      "table": "fundingagency",
+      "row_index": 0,
+      "field": "funding_agency",
+      "expected_value": "4730",
+      "generated_value": "4730"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 99.0,
+        "generated_value": 99.0
+      },
+      "table": "fundingagency",
+      "row_index": 0,
+      "field": "funding_agency_key",
+      "expected_value": 99,
+      "generated_value": 99
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Defense",
+        "generated_string": "Department of Defense"
+      },
+      "table": "fundingagency",
+      "row_index": 1,
+      "field": "funding_agency_name",
+      "expected_value": "Department of Defense",
+      "generated_value": "Department of Defense"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 9700.0,
+        "generated_value": 9700.0
+      },
+      "table": "fundingagency",
+      "row_index": 1,
+      "field": "funding_agency",
+      "expected_value": "9700",
+      "generated_value": "9700"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 105.0,
+        "generated_value": 105.0
+      },
+      "table": "fundingagency",
+      "row_index": 1,
+      "field": "funding_agency_key",
+      "expected_value": 105,
+      "generated_value": 105
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Health and Human Services",
+        "generated_string": "Department of Health and Human Services"
+      },
+      "table": "fundingagency",
+      "row_index": 2,
+      "field": "funding_agency_name",
+      "expected_value": "Department of Health and Human Services",
+      "generated_value": "Department of Health and Human Services"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 7500.0,
+        "generated_value": 7500.0
+      },
+      "table": "fundingagency",
+      "row_index": 2,
+      "field": "funding_agency",
+      "expected_value": "7500",
+      "generated_value": "7500"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 88.0,
+        "generated_value": 88.0
+      },
+      "table": "fundingagency",
+      "row_index": 2,
+      "field": "funding_agency_key",
+      "expected_value": 88,
+      "generated_value": 88
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Energy",
+        "generated_string": "Department of Energy"
+      },
+      "table": "fundingagency",
+      "row_index": 3,
+      "field": "funding_agency_name",
+      "expected_value": "Department of Energy",
+      "generated_value": "Department of Energy"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 8900.0,
+        "generated_value": 8900.0
+      },
+      "table": "fundingagency",
+      "row_index": 3,
+      "field": "funding_agency",
+      "expected_value": "8900",
+      "generated_value": "8900"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 77.0,
+        "generated_value": 77.0
+      },
+      "table": "fundingagency",
+      "row_index": 3,
+      "field": "funding_agency_key",
+      "expected_value": 77,
+      "generated_value": 77
+    }
+  ],
+  "Vendor": [
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 123456789.0,
+        "generated_value": 123456789.0
+      },
+      "table": "vendor",
+      "row_index": 0,
+      "field": "vend_dunsnumber",
+      "expected_value": "123456789",
+      "generated_value": "123456789"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Tech Solutions LLC",
+        "generated_string": "Tech Solutions LLC"
+      },
+      "table": "vendor",
+      "row_index": 0,
+      "field": "vend_vendorname",
+      "expected_value": "Tech Solutions LLC",
+      "generated_value": "Tech Solutions LLC"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 987654321.0,
+        "generated_value": 987654321.0
+      },
+      "table": "vendor",
+      "row_index": 1,
+      "field": "vend_dunsnumber",
+      "expected_value": "987654321",
+      "generated_value": "987654321"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Defense Systems Inc",
+        "generated_string": "Defense Systems Inc"
+      },
+      "table": "vendor",
+      "row_index": 1,
+      "field": "vend_vendorname",
+      "expected_value": "Defense Systems Inc",
+      "generated_value": "Defense Systems Inc"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 112233445.0,
+        "generated_value": 112233445.0
+      },
+      "table": "vendor",
+      "row_index": 2,
+      "field": "vend_dunsnumber",
+      "expected_value": "112233445",
+      "generated_value": "112233445"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "MedEquip Corp",
+        "generated_string": "MedEquip Corp"
+      },
+      "table": "vendor",
+      "row_index": 2,
+      "field": "vend_vendorname",
+      "expected_value": "MedEquip Corp",
+      "generated_value": "MedEquip Corp"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 554433221.0,
+        "generated_value": 554433221.0
+      },
+      "table": "vendor",
+      "row_index": 3,
+      "field": "vend_dunsnumber",
+      "expected_value": "554433221",
+      "generated_value": "554433221"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Green Future Innovations",
+        "generated_string": "Green Future Innovations"
+      },
+      "table": "vendor",
+      "row_index": 3,
+      "field": "vend_vendorname",
+      "expected_value": "Green Future Innovations",
+      "generated_value": "Green Future Innovations"
+    }
+  ],
+  "ContractingOffice": [
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 4732.0,
+        "generated_value": 4732.0
+      },
+      "table": "contractingoffice",
+      "row_index": 0,
+      "field": "contractingofficeagencyid",
+      "expected_value": "4732",
+      "generated_value": "4732"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 0.95,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "FAS ITS",
+        "generated_string": "FAS ITS contracting office"
+      },
+      "table": "contractingoffice",
+      "row_index": 0,
+      "field": "co_name",
+      "expected_value": "FAS ITS",
+      "generated_value": "FAS ITS contracting office"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "VA",
+        "generated_string": "VA"
+      },
+      "table": "contractingoffice",
+      "row_index": 0,
+      "field": "co_state",
+      "expected_value": "VA",
+      "generated_value": "VA"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 9702.0,
+        "generated_value": 9702.0
+      },
+      "table": "contractingoffice",
+      "row_index": 1,
+      "field": "contractingofficeagencyid",
+      "expected_value": "9702",
+      "generated_value": "9702"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Naval Research Lab",
+        "generated_string": "Naval Research Lab"
+      },
+      "table": "contractingoffice",
+      "row_index": 1,
+      "field": "co_name",
+      "expected_value": "Naval Research Lab",
+      "generated_value": "Naval Research Lab"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DC",
+        "generated_string": "DC"
+      },
+      "table": "contractingoffice",
+      "row_index": 1,
+      "field": "co_state",
+      "expected_value": "DC",
+      "generated_value": "DC"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 7504.0,
+        "generated_value": 7504.0
+      },
+      "table": "contractingoffice",
+      "row_index": 2,
+      "field": "contractingofficeagencyid",
+      "expected_value": "7504",
+      "generated_value": "7504"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 0.95,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "CMS Acquisition",
+        "generated_string": "CMS Acquisition office"
+      },
+      "table": "contractingoffice",
+      "row_index": 2,
+      "field": "co_name",
+      "expected_value": "CMS Acquisition",
+      "generated_value": "CMS Acquisition office"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "MD",
+        "generated_string": "MD"
+      },
+      "table": "contractingoffice",
+      "row_index": 2,
+      "field": "co_state",
+      "expected_value": "MD",
+      "generated_value": "MD"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 8901.0,
+        "generated_value": 8901.0
+      },
+      "table": "contractingoffice",
+      "row_index": 3,
+      "field": "contractingofficeagencyid",
+      "expected_value": "8901",
+      "generated_value": "8901"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Golden Field Office",
+        "generated_string": "Golden Field Office"
+      },
+      "table": "contractingoffice",
+      "row_index": 3,
+      "field": "co_name",
+      "expected_value": "Golden Field Office",
+      "generated_value": "Golden Field Office"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "CO",
+        "generated_string": "CO"
+      },
+      "table": "contractingoffice",
+      "row_index": 3,
+      "field": "co_state",
+      "expected_value": "CO",
+      "generated_value": "CO"
+    }
+  ],
+  "ProductServiceCode": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "D305",
+        "generated_string": "D305"
+      },
+      "table": "productservicecode",
+      "row_index": 0,
+      "field": "psc_code",
+      "expected_value": "D305",
+      "generated_value": "D305"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 405.0,
+        "generated_value": 405.0
+      },
+      "table": "productservicecode",
+      "row_index": 0,
+      "field": "psc_key",
+      "expected_value": 405,
+      "generated_value": 405
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "IT AND TELECOM - TELEPROCESSING",
+        "generated_string": "IT AND TELECOM - TELEPROCESSING"
+      },
+      "table": "productservicecode",
+      "row_index": 0,
+      "field": "psc_code_description",
+      "expected_value": "IT AND TELECOM - TELEPROCESSING",
+      "generated_value": "IT AND TELECOM - TELEPROCESSING"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "R425",
+        "generated_string": "R425"
+      },
+      "table": "productservicecode",
+      "row_index": 1,
+      "field": "psc_code",
+      "expected_value": "R425",
+      "generated_value": "R425"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 520.0,
+        "generated_value": 520.0
+      },
+      "table": "productservicecode",
+      "row_index": 1,
+      "field": "psc_key",
+      "expected_value": 520,
+      "generated_value": 520
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "SUPPORT- PROFESSIONAL: ENGINEERING",
+        "generated_string": "SUPPORT- PROFESSIONAL: ENGINEERING"
+      },
+      "table": "productservicecode",
+      "row_index": 1,
+      "field": "psc_code_description",
+      "expected_value": "SUPPORT- PROFESSIONAL: ENGINEERING",
+      "generated_value": "SUPPORT- PROFESSIONAL: ENGINEERING"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6515.0,
+        "generated_value": 6515.0
+      },
+      "table": "productservicecode",
+      "row_index": 2,
+      "field": "psc_code",
+      "expected_value": "6515",
+      "generated_value": "6515"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 615.0,
+        "generated_value": 615.0
+      },
+      "table": "productservicecode",
+      "row_index": 2,
+      "field": "psc_key",
+      "expected_value": 615,
+      "generated_value": 615
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "MEDICAL AND SURGICAL INSTRUMENTS",
+        "generated_string": "MEDICAL AND SURGICAL INSTRUMENTS"
+      },
+      "table": "productservicecode",
+      "row_index": 2,
+      "field": "psc_code_description",
+      "expected_value": "MEDICAL AND SURGICAL INSTRUMENTS",
+      "generated_value": "MEDICAL AND SURGICAL INSTRUMENTS"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "AZ11",
+        "generated_string": "AZ11"
+      },
+      "table": "productservicecode",
+      "row_index": 3,
+      "field": "psc_code",
+      "expected_value": "AZ11",
+      "generated_value": "AZ11"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 811.0,
+        "generated_value": 811.0
+      },
+      "table": "productservicecode",
+      "row_index": 3,
+      "field": "psc_key",
+      "expected_value": 811,
+      "generated_value": 811
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "R&D- OTHER RESEARCH",
+        "generated_string": "R&D- OTHER RESEARCH"
+      },
+      "table": "productservicecode",
+      "row_index": 3,
+      "field": "psc_code_description",
+      "expected_value": "R&D- OTHER RESEARCH",
+      "generated_value": "R&D- OTHER RESEARCH"
+    }
+  ],
+  "Naics": [
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 511210.0,
+        "generated_value": 511210.0
+      },
+      "table": "naics",
+      "row_index": 0,
+      "field": "naics_code",
+      "expected_value": "511210",
+      "generated_value": "511210"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Software Publishers",
+        "generated_string": "Software Publishers"
+      },
+      "table": "naics",
+      "row_index": 0,
+      "field": "naics_name",
+      "expected_value": "Software Publishers",
+      "generated_value": "Software Publishers"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 541330.0,
+        "generated_value": 541330.0
+      },
+      "table": "naics",
+      "row_index": 1,
+      "field": "naics_code",
+      "expected_value": "541330",
+      "generated_value": "541330"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Engineering Services",
+        "generated_string": "Engineering Services"
+      },
+      "table": "naics",
+      "row_index": 1,
+      "field": "naics_name",
+      "expected_value": "Engineering Services",
+      "generated_value": "Engineering Services"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 339112.0,
+        "generated_value": 339112.0
+      },
+      "table": "naics",
+      "row_index": 2,
+      "field": "naics_code",
+      "expected_value": "339112",
+      "generated_value": "339112"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 0.95,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Surgical and Medical Instrument",
+        "generated_string": "Surgical and Medical Instrument manufacturing"
+      },
+      "table": "naics",
+      "row_index": 2,
+      "field": "naics_name",
+      "expected_value": "Surgical and Medical Instrument",
+      "generated_value": "Surgical and Medical Instrument manufacturing"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 541715.0,
+        "generated_value": 541715.0
+      },
+      "table": "naics",
+      "row_index": 3,
+      "field": "naics_code",
+      "expected_value": "541715",
+      "generated_value": "541715"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Research and Development in Sciences",
+        "generated_string": "Research and Development in Sciences"
+      },
+      "table": "naics",
+      "row_index": 3,
+      "field": "naics_name",
+      "expected_value": "Research and Development in Sciences",
+      "generated_value": "Research and Development in Sciences"
+    }
+  ],
+  "Category": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Information Technology",
+        "generated_string": "Information Technology"
+      },
+      "table": "category",
+      "row_index": 0,
+      "field": "level1_category",
+      "expected_value": "Information Technology",
+      "generated_value": "Information Technology"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "IT Software",
+        "generated_string": "IT Software"
+      },
+      "table": "category",
+      "row_index": 0,
+      "field": "level2_category",
+      "expected_value": "IT Software",
+      "generated_value": "IT Software"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Professional Services",
+        "generated_string": "Professional Services"
+      },
+      "table": "category",
+      "row_index": 1,
+      "field": "level1_category",
+      "expected_value": "Professional Services",
+      "generated_value": "Professional Services"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Engineering Services",
+        "generated_string": "Engineering Services"
+      },
+      "table": "category",
+      "row_index": 1,
+      "field": "level2_category",
+      "expected_value": "Engineering Services",
+      "generated_value": "Engineering Services"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 0.95,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Medical",
+        "generated_string": "Health and Medical Supply"
+      },
+      "table": "category",
+      "row_index": 2,
+      "field": "level1_category",
+      "expected_value": "Medical",
+      "generated_value": "Health and Medical Supply"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Medical Equipment",
+        "generated_string": "Medical Equipment"
+      },
+      "table": "category",
+      "row_index": 2,
+      "field": "level2_category",
+      "expected_value": "Medical Equipment",
+      "generated_value": "Medical Equipment"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Research and Development",
+        "generated_string": "Research and Development"
+      },
+      "table": "category",
+      "row_index": 3,
+      "field": "level1_category",
+      "expected_value": "Research and Development",
+      "generated_value": "Research and Development"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Energy R&D",
+        "generated_string": "Energy R&D"
+      },
+      "table": "category",
+      "row_index": 3,
+      "field": "level2_category",
+      "expected_value": "Energy R&D",
+      "generated_value": "Energy R&D"
+    }
+  ],
+  "AwardType": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DELIVERY ORDER",
+        "generated_string": "DELIVERY ORDER"
+      },
+      "table": "awardtype",
+      "row_index": 0,
+      "field": "award_type",
+      "expected_value": "DELIVERY ORDER",
+      "generated_value": "DELIVERY ORDER"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "F",
+        "generated_string": "F"
+      },
+      "table": "awardtype",
+      "row_index": 0,
+      "field": "award_type_code",
+      "expected_value": "F",
+      "generated_value": "F"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 3.0,
+        "generated_value": 3.0
+      },
+      "table": "awardtype",
+      "row_index": 0,
+      "field": "award_type_key",
+      "expected_value": 3,
+      "generated_value": 3
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "PURCHASE ORDER",
+        "generated_string": "PURCHASE ORDER"
+      },
+      "table": "awardtype",
+      "row_index": 1,
+      "field": "award_type",
+      "expected_value": "PURCHASE ORDER",
+      "generated_value": "PURCHASE ORDER"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "P",
+        "generated_string": "P"
+      },
+      "table": "awardtype",
+      "row_index": 1,
+      "field": "award_type_code",
+      "expected_value": "P",
+      "generated_value": "P"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 4.0,
+        "generated_value": 4.0
+      },
+      "table": "awardtype",
+      "row_index": 1,
+      "field": "award_type_key",
+      "expected_value": 4,
+      "generated_value": 4
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "BPA CALL",
+        "generated_string": "BPA CALL"
+      },
+      "table": "awardtype",
+      "row_index": 2,
+      "field": "award_type",
+      "expected_value": "BPA CALL",
+      "generated_value": "BPA CALL"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "A",
+        "generated_string": "A"
+      },
+      "table": "awardtype",
+      "row_index": 2,
+      "field": "award_type_code",
+      "expected_value": "A",
+      "generated_value": "A"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1.0,
+        "generated_value": 1.0
+      },
+      "table": "awardtype",
+      "row_index": 2,
+      "field": "award_type_key",
+      "expected_value": 1,
+      "generated_value": 1
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DEFINITIVE CONTRACT",
+        "generated_string": "DEFINITIVE CONTRACT"
+      },
+      "table": "awardtype",
+      "row_index": 3,
+      "field": "award_type",
+      "expected_value": "DEFINITIVE CONTRACT",
+      "generated_value": "DEFINITIVE CONTRACT"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "D",
+        "generated_string": "D"
+      },
+      "table": "awardtype",
+      "row_index": 3,
+      "field": "award_type_code",
+      "expected_value": "D",
+      "generated_value": "D"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2.0,
+        "generated_value": 2.0
+      },
+      "table": "awardtype",
+      "row_index": 3,
+      "field": "award_type_key",
+      "expected_value": 2,
+      "generated_value": 2
+    }
+  ]
+}

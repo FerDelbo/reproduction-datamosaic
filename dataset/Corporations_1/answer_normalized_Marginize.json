@@ -1,0 +1,38 @@
+{
+  "SocialProfile": [
+    {
+      "record_id": 111715,
+      "angellist_url": "https://angel.co/marginize-1",
+      "crunchbase_url": "https://www.crunchbase.com/organization/marginize",
+      "facebook_url": "https://www.facebook.com/pages/Marginize/128247180553731",
+      "linkedin_url": "https://www.linkedin.com/company/marginize",
+      "twitter_url": "https://twitter.com/Marginize",
+      "website_url": "http://marginize.com"
+    }
+  ],
+  "Company": [
+    {
+      "record_id": 111715,
+      "status_flag": 1,
+      "business_model": "B2C",
+      "city": "Cambridge",
+      "region_or_continent": null,
+      "country": "united states",
+      "funding_status": null,
+      "date_updated_1": "2014-09-21",
+      "organization_id": 1210237,
+      "industry_category": "Finance",
+      "entity_type": "Startups",
+      "date_updated_2": "2014-09-21",
+      "metro_area": "Boston",
+      "long_description": "Marginize augments every page on the web with an independent space owned by the visitors where they can meet each other and interact freely. Marginize pre-populates that space with existing Twitter content about each page, and allows visitors to check in",
+      "company_name": "Marginize",
+      "is_funded_flag": 1,
+      "headquarters_region": "Boston",
+      "employee_or_follower_count": 2450,
+      "short_description": "Marginize is a browser plugin that augments every page on the web with a sidebar and enables users to see others' comments.",
+      "funding_round": "A",
+      "funding_total": 2271990.0
+    }
+  ]
+}

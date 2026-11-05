@@ -1,3 +1,14 @@
+.venv
+
+# Dados brutos grandes (não cabem no GitHub)
+dataset/CommonGovernment/CommonGovernment_1.csv
+dataset/medicare1/Medicare1_1.csv
+dataset/SISU/base_tratada_LE_2023_2.csv
+# Material com direitos autorais
+dataset/hobbit/*.pdf
+# Saídas de teste
+output/detection/
+
 # Python
 __pycache__/
 *.py[cod]

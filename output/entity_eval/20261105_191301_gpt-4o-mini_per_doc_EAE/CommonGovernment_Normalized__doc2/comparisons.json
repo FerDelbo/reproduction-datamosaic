@@ -1,0 +1,726 @@
+{
+  "Agency": [
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1400.0,
+        "generated_value": 1400.0
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "1400",
+      "generated_value": "1400"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOI",
+        "generated_string": "DOI"
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "short_name",
+      "expected_value": "DOI",
+      "generated_value": "DOI"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 14.0,
+        "generated_value": 14.0
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "agency_code",
+      "expected_value": "14",
+      "generated_value": "14"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of the Interior",
+        "generated_string": "Department of the Interior"
+      },
+      "table": "agency",
+      "row_index": 0,
+      "field": "ag_name",
+      "expected_value": "Department of the Interior",
+      "generated_value": "Department of the Interior"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6900.0,
+        "generated_value": 6900.0
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "6900",
+      "generated_value": "6900"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOT",
+        "generated_string": "DOT"
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "short_name",
+      "expected_value": "DOT",
+      "generated_value": "DOT"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 69.0,
+        "generated_value": 69.0
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "agency_code",
+      "expected_value": "69",
+      "generated_value": "69"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Transportation",
+        "generated_string": "Department of Transportation"
+      },
+      "table": "agency",
+      "row_index": 1,
+      "field": "ag_name",
+      "expected_value": "Department of Transportation",
+      "generated_value": "Department of Transportation"
+    }
+  ],
+  "FundingAgency": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of the Interior",
+        "generated_string": "Department of the Interior"
+      },
+      "table": "fundingagency",
+      "row_index": 0,
+      "field": "funding_agency_name",
+      "expected_value": "Department of the Interior",
+      "generated_value": "Department of the Interior"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "numeric",
+      "details": {},
+      "table": "fundingagency",
+      "row_index": 0,
+      "field": "funding_agency",
+      "expected_value": "NULL",
+      "generated_value": "14"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 140.0,
+        "generated_value": 140.0
+      },
+      "table": "fundingagency",
+      "row_index": 0,
+      "field": "funding_agency_key",
+      "expected_value": 140,
+      "generated_value": 140
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Transportation",
+        "generated_string": "Department of Transportation"
+      },
+      "table": "fundingagency",
+      "row_index": 1,
+      "field": "funding_agency_name",
+      "expected_value": "Department of Transportation",
+      "generated_value": "Department of Transportation"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.010000000000000009,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "expected_value": 6900.0,
+        "generated_value": 69.0
+      },
+      "table": "fundingagency",
+      "row_index": 1,
+      "field": "funding_agency",
+      "expected_value": 6900,
+      "generated_value": "69"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 690.0,
+        "generated_value": 690.0
+      },
+      "table": "fundingagency",
+      "row_index": 1,
+      "field": "funding_agency_key",
+      "expected_value": "690",
+      "generated_value": 690
+    }
+  ],
+  "Vendor": [
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "vendor",
+      "row_index": 0,
+      "field": "vend_vendorname",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 334455667.0,
+        "generated_value": 334455667.0
+      },
+      "table": "vendor",
+      "row_index": 0,
+      "field": "vend_dunsnumber",
+      "expected_value": "334455667",
+      "generated_value": "334455667"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "vendor",
+      "row_index": 1,
+      "field": "vend_vendorname",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 998877665.0,
+        "generated_value": 998877665.0
+      },
+      "table": "vendor",
+      "row_index": 1,
+      "field": "vend_dunsnumber",
+      "expected_value": "998877665",
+      "generated_value": "998877665"
+    }
+  ],
+  "ContractingOffice": [
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1406.0,
+        "generated_value": 1406.0
+      },
+      "table": "contractingoffice",
+      "row_index": 0,
+      "field": "contractingofficeagencyid",
+      "expected_value": "1406",
+      "generated_value": "1406"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "NM",
+        "generated_string": "NM"
+      },
+      "table": "contractingoffice",
+      "row_index": 0,
+      "field": "co_state",
+      "expected_value": "NM",
+      "generated_value": "NM"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.04166666666666663,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "NULL",
+        "generated_string": "Bureau of Indian Affairs"
+      },
+      "table": "contractingoffice",
+      "row_index": 0,
+      "field": "co_name",
+      "expected_value": "NULL",
+      "generated_value": "Bureau of Indian Affairs"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6920.0,
+        "generated_value": 6920.0
+      },
+      "table": "contractingoffice",
+      "row_index": 1,
+      "field": "contractingofficeagencyid",
+      "expected_value": "6920",
+      "generated_value": "6920"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "contractingoffice",
+      "row_index": 1,
+      "field": "co_state",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "FAA Regional Office",
+        "generated_string": "FAA Regional Office"
+      },
+      "table": "contractingoffice",
+      "row_index": 1,
+      "field": "co_name",
+      "expected_value": "FAA Regional Office",
+      "generated_value": "FAA Regional Office"
+    }
+  ],
+  "ProductServiceCode": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS",
+        "generated_string": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS"
+      },
+      "table": "productservicecode",
+      "row_index": 0,
+      "field": "psc_code_description",
+      "expected_value": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS",
+      "generated_value": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 920.0,
+        "generated_value": 920.0
+      },
+      "table": "productservicecode",
+      "row_index": 0,
+      "field": "psc_key",
+      "expected_value": 920,
+      "generated_value": 920
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Y1LB",
+        "generated_string": "Y1LB"
+      },
+      "table": "productservicecode",
+      "row_index": 0,
+      "field": "psc_code",
+      "expected_value": "Y1LB",
+      "generated_value": "Y1LB"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER",
+        "generated_string": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER"
+      },
+      "table": "productservicecode",
+      "row_index": 1,
+      "field": "psc_code_description",
+      "expected_value": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER",
+      "generated_value": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 850.0,
+        "generated_value": 850.0
+      },
+      "table": "productservicecode",
+      "row_index": 1,
+      "field": "psc_key",
+      "expected_value": 850,
+      "generated_value": 850
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "V121",
+        "generated_string": "V121"
+      },
+      "table": "productservicecode",
+      "row_index": 1,
+      "field": "psc_code",
+      "expected_value": "V121",
+      "generated_value": "V121"
+    }
+  ],
+  "Naics": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Highway, Street, and Bridge Construction",
+        "generated_string": "Highway, Street, and Bridge Construction"
+      },
+      "table": "naics",
+      "row_index": 0,
+      "field": "naics_name",
+      "expected_value": "Highway, Street, and Bridge Construction",
+      "generated_value": "Highway, Street, and Bridge Construction"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 237310.0,
+        "generated_value": 237310.0
+      },
+      "table": "naics",
+      "row_index": 0,
+      "field": "naics_code",
+      "expected_value": "237310",
+      "generated_value": "237310"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Air Traffic Control",
+        "generated_string": "Air Traffic Control"
+      },
+      "table": "naics",
+      "row_index": 1,
+      "field": "naics_name",
+      "expected_value": "Air Traffic Control",
+      "generated_value": "Air Traffic Control"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 488111.0,
+        "generated_value": 488111.0
+      },
+      "table": "naics",
+      "row_index": 1,
+      "field": "naics_code",
+      "expected_value": "488111",
+      "generated_value": "488111"
+    }
+  ],
+  "Category": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Highway Construction",
+        "generated_string": "Highway Construction"
+      },
+      "table": "category",
+      "row_index": 0,
+      "field": "level2_category",
+      "expected_value": "Highway Construction",
+      "generated_value": "Highway Construction"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Construction",
+        "generated_string": "Construction"
+      },
+      "table": "category",
+      "row_index": 0,
+      "field": "level1_category",
+      "expected_value": "Construction",
+      "generated_value": "Construction"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Air Traffic Control",
+        "generated_string": "Air Traffic Control"
+      },
+      "table": "category",
+      "row_index": 1,
+      "field": "level2_category",
+      "expected_value": "Air Traffic Control",
+      "generated_value": "Air Traffic Control"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Transportation",
+        "generated_string": "Transportation"
+      },
+      "table": "category",
+      "row_index": 1,
+      "field": "level1_category",
+      "expected_value": "Transportation",
+      "generated_value": "Transportation"
+    }
+  ],
+  "AwardType": [
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DEFINITIVE CONTRACT",
+        "generated_string": "DEFINITIVE CONTRACT"
+      },
+      "table": "awardtype",
+      "row_index": 0,
+      "field": "award_type",
+      "expected_value": "DEFINITIVE CONTRACT",
+      "generated_value": "DEFINITIVE CONTRACT"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "D",
+        "generated_string": "D"
+      },
+      "table": "awardtype",
+      "row_index": 0,
+      "field": "award_type_code",
+      "expected_value": "D",
+      "generated_value": "D"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2.0,
+        "generated_value": 2.0
+      },
+      "table": "awardtype",
+      "row_index": 0,
+      "field": "award_type_key",
+      "expected_value": 2,
+      "generated_value": 2
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DELIVERY ORDER",
+        "generated_string": "DELIVERY ORDER"
+      },
+      "table": "awardtype",
+      "row_index": 1,
+      "field": "award_type",
+      "expected_value": "DELIVERY ORDER",
+      "generated_value": "DELIVERY ORDER"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "F",
+        "generated_string": "F"
+      },
+      "table": "awardtype",
+      "row_index": 1,
+      "field": "award_type_code",
+      "expected_value": "F",
+      "generated_value": "F"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 3.0,
+        "generated_value": 3.0
+      },
+      "table": "awardtype",
+      "row_index": 1,
+      "field": "award_type_key",
+      "expected_value": 3,
+      "generated_value": 3
+    }
+  ]
+}

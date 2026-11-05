@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "normalize_tools.py (derived from flat schema)",
+    "generated_at": "2026-10-31T00:00:00Z",
+    "tables_count": 2,
+    "relations_count": 1
+  },
+  "tables": [
+    {
+      "id": "table_1",
+      "name": "SocialProfile",
+      "type": "entity",
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "INTEGER",
+          "constraints": {
+            "primary_key": true,
+            "foreign_key": true,
+            "nullable": false
+          },
+          "description": "Unique identifier for the corporation/startup record"
+        },
+        {
+          "name": "angellist_url",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Official AngelList profile URL of the company"
+        },
+        {
+          "name": "crunchbase_url",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Official Crunchbase profile URL"
+        },
+        {
+          "name": "facebook_url",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Official Facebook page URL"
+        },
+        {
+          "name": "linkedin_url",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Official LinkedIn company URL"
+        },
+        {
+          "name": "twitter_url",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Official Twitter profile URL"
+        },
+        {
+          "name": "website_url",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Company's primary official website URL"
+        }
+      ]
+    },
+    {
+      "id": "table_2",
+      "name": "Company",
+      "type": "relation",
+      "fields": [
+        {
+          "name": "record_id",
+          "type": "INTEGER",
+          "constraints": {
+            "primary_key": true,
+            "nullable": false
+          },
+          "description": "Unique identifier for the corporation/startup record"
+        },
+        {
+          "name": "status_flag",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "Numeric flag indicating entity status or activity level"
+        },
+        {
+          "name": "business_model",
+          "type": "VARCHAR(50)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Business model classification (e.g., B2B, B2C)"
+        },
+        {
+          "name": "city",
+          "type": "VARCHAR(100)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "City where the corporation is located"
+        },
+        {
+          "name": "region_or_continent",
+          "type": "VARCHAR(50)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Broader region or continent code (e.g., EU, Asia)"
+        },
+        {
+          "name": "country",
+          "type": "VARCHAR(100)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Country of operation or headquarters"
+        },
+        {
+          "name": "funding_status",
+          "type": "VARCHAR(100)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Current funding stage description (e.g., Pre Series A, No Known Funding)"
+        },
+        {
+          "name": "date_updated_1",
+          "type": "DATE",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Primary timestamp/date related to record creation or update"
+        },
+        {
+          "name": "organization_id",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "Secondary unique organization identifier"
+        },
+        {
+          "name": "industry_category",
+          "type": "VARCHAR(100)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Main industry or sector category (e.g., Finance)"
+        },
+        {
+          "name": "entity_type",
+          "type": "VARCHAR(50)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Type of the entity (e.g., Startups)"
+        },
+        {
+          "name": "date_updated_2",
+          "type": "DATE",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Secondary timestamp/date related to the corporation's profile"
+        },
+        {
+          "name": "metro_area",
+          "type": "VARCHAR(100)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Metropolitan area of the headquarters"
+        },
+        {
+          "name": "long_description",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Detailed description of the company's product, service, or history"
+        },
+        {
+          "name": "company_name",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "Full official name of the corporation or startup"
+        },
+        {
+          "name": "is_funded_flag",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "Binary flag indicating if the company has received funding (0 or 1)"
+        },
+        {
+          "name": "headquarters_region",
+          "type": "VARCHAR(100)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "State or regional designation of the headquarters"
+        },
+        {
+          "name": "employee_or_follower_count",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Metric indicating size, such as employee count or social follower count"
+        },
+        {
+          "name": "short_description",
+          "type": "VARCHAR(255)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Brief one-sentence pitch or tagline for the company"
+        },
+        {
+          "name": "funding_round",
+          "type": "VARCHAR(50)",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "Latest specific funding round letter or phase (e.g., A, B, Seed)"
+        },
+        {
+          "name": "funding_total",
+          "type": "DECIMAL(15,2)",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "Total dollar amount of funding raised"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "ref_1",
+      "type": "one-to-one",
+      "from": {
+        "table": "SocialProfile",
+        "field": "record_id"
+      },
+      "to": {
+        "table": "Company",
+        "field": "record_id"
+      }
+    }
+  ],
+  "rules": []
+}

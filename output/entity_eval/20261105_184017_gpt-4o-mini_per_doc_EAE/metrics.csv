@@ -1,0 +1,2 @@
+timestamp,case,table,model,mode,eae,n_docs,expected_rows,extracted_rows,matched_rows,row_precision,row_recall,row_f1,expected_cells,generated_cells,correct_cells,cell_precision,cell_recall,cell_f1,input_tokens,output_tokens,total_tokens,llm_calls,fallback_calls,time_s
+2026-11-05T18:40:32,CommonGovernment/doc2,CommonGovernment,gpt-4o-mini,per_doc,True,1,2,2,2,100.0,100.0,100.0,114,98,95,96.94,83.33,89.62,5518,1288,6806,1,0,15.48

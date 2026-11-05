@@ -12,15 +12,24 @@ from ...core.ids import IdGenerator
 from llm.main import get_answer
 from llm.utils import get_llm_request_timeout
 
-try:
-    from pydantic import BaseModel, Field
-    from langchain_core.output_parsers import PydanticOutputParser
-    from langchain_openai import ChatOpenAI
-    from langchain.output_parsers import OutputFixingParser
-    STRUCTURED_OUTPUT_AVAILABLE = True
-except ImportError:
-    STRUCTURED_OUTPUT_AVAILABLE = False
+# try:
+#     from pydantic import BaseModel, Field
+#     from langchain_core.output_parsers import PydanticOutputParser
+#     from langchain_openai import ChatOpenAI
+#     from langchain.output_parsers import OutputFixingParser
+#     STRUCTURED_OUTPUT_AVAILABLE = True
+# except ImportError:
+#     STRUCTURED_OUTPUT_AVAILABLE = False
 
+from pydantic import BaseModel, Field
+from langchain_core.output_parsers import PydanticOutputParser
+from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain.output_parsers import OutputFixingParser
+from langchain_classic.output_parsers import OutputFixingParser
+  
+# from langchain_core.output_parsers import StrOutputParser   
+STRUCTURED_OUTPUT_AVAILABLE = True
 
 class EntityExtractor:
     """Entity extractor - handles data extraction for entity tables."""
@@ -46,6 +55,7 @@ class EntityExtractor:
         - OutputFixingParser automatically repairs format errors.
         - Higher precision and recall.
         """
+        # self.logger.info(f"[DEBUG] STRUCTURED_OUTPUT_AVAILABLE value: {STRUCTURED_OUTPUT_AVAILABLE}")
         if not STRUCTURED_OUTPUT_AVAILABLE:
             return fallback_func(text_content, table_def, nl_prompt, doc_source, context, doc_index)
         
@@ -54,13 +64,15 @@ class EntityExtractor:
             table_name = table_def.get('name', 'data_table')
             
             list_model = create_list_model_func(temp_schema, table_name)
+            # self.logger.info(f"[DEBUG] Model list values: {list_model}")
             if not list_model:
+                # self.logger.info(f"[DEBUG] Model Lista is empty!")
                 return fallback_func(text_content, table_def, nl_prompt, doc_source, context, doc_index)
-            
             model = context.model if context and hasattr(context, 'model') else "gpt-4o"
             api_config = get_model_api_config_func(model)
             api_base = api_config['api_base']
             api_key = api_config['api_key']
+            self.logger.info(f"[DEBUG] api_base={api_config.get('api_base')!r} api_key={'OK(' + api_key[:6] + '...)' if api_key else 'VAZIO'}")
             
             llm_kwargs = {"model": model, "temperature": 0, "timeout": get_llm_request_timeout()}
             if api_base:
@@ -69,6 +81,10 @@ class EntityExtractor:
                 llm_kwargs["api_key"] = api_key
             
             llm = ChatOpenAI(**llm_kwargs)
+            # llm = ChatGoogleGenerativeAI(**llm_kwargs)
+
+            # parser = PydanticOutputParser(pydantic_object=list_model)
+            # fixing_parser = OutputFixingParser.from_llm(parser=parser, llm=llm)
             
             parser = PydanticOutputParser(pydantic_object=list_model)
             fixing_parser = OutputFixingParser.from_llm(parser=parser, llm=llm)
@@ -104,7 +120,7 @@ TIPS: Scan the document to find all entities first, then extract their complete 
             llm_response = response.content
             
             self.logger.info(f"[Entity extraction] LLM response length: {len(llm_response)}")
-            
+            self.logger.info(f"[Entity extraction] LLM usage tokens: {response.usage_metadata["total_tokens"]}")
             rows = parse_structured_response_func(
                 llm_response, fixing_parser, table_name, doc_source
             )

@@ -1,0 +1,170 @@
+{
+  "Agency": [
+    {
+      "agency_code": "47",
+      "a_aid_acontid_agencyid": "4730",
+      "ag_name": "General Services Administration",
+      "short_name": "GSA"
+    },
+    {
+      "agency_code": "97",
+      "a_aid_acontid_agencyid": "9700",
+      "ag_name": "Department of Defense",
+      "short_name": "DOD"
+    },
+    {
+      "agency_code": "75",
+      "a_aid_acontid_agencyid": "7500",
+      "ag_name": "Department of Health and Human Services",
+      "short_name": "HHS"
+    },
+    {
+      "agency_code": "89",
+      "a_aid_acontid_agencyid": "8900",
+      "ag_name": "Department of Energy",
+      "short_name": "DOE"
+    }
+  ],
+  "FundingAgency": [
+    {
+      "funding_agency_key": 99,
+      "funding_agency": "4730",
+      "funding_agency_name": "General Services Administration"
+    },
+    {
+      "funding_agency_key": 105,
+      "funding_agency": "9700",
+      "funding_agency_name": "Department of Defense"
+    },
+    {
+      "funding_agency_key": 88,
+      "funding_agency": "7500",
+      "funding_agency_name": "Department of Health and Human Services"
+    },
+    {
+      "funding_agency_key": 77,
+      "funding_agency": "8900",
+      "funding_agency_name": "Department of Energy"
+    }
+  ],
+  "Vendor": [
+    {
+      "vend_dunsnumber": "123456789",
+      "vend_vendorname": "Tech Solutions LLC"
+    },
+    {
+      "vend_dunsnumber": "987654321",
+      "vend_vendorname": "Defense Systems Inc"
+    },
+    {
+      "vend_dunsnumber": "112233445",
+      "vend_vendorname": "MedEquip Corp"
+    },
+    {
+      "vend_dunsnumber": "554433221",
+      "vend_vendorname": "Green Future Innovations"
+    }
+  ],
+  "ContractingOffice": [
+    {
+      "contractingofficeagencyid": "4732",
+      "co_name": "FAS ITS contracting office",
+      "co_state": "VA"
+    },
+    {
+      "contractingofficeagencyid": "9702",
+      "co_name": "Naval Research Lab",
+      "co_state": "DC"
+    },
+    {
+      "contractingofficeagencyid": "7504",
+      "co_name": "CMS Acquisition office",
+      "co_state": "MD"
+    },
+    {
+      "contractingofficeagencyid": "8901",
+      "co_name": "Golden Field Office",
+      "co_state": "CO"
+    }
+  ],
+  "ProductServiceCode": [
+    {
+      "psc_code": "D305",
+      "psc_key": 405,
+      "psc_code_description": "IT AND TELECOM - TELEPROCESSING"
+    },
+    {
+      "psc_code": "R425",
+      "psc_key": 520,
+      "psc_code_description": "SUPPORT- PROFESSIONAL: ENGINEERING"
+    },
+    {
+      "psc_code": "6515",
+      "psc_key": 615,
+      "psc_code_description": "MEDICAL AND SURGICAL INSTRUMENTS"
+    },
+    {
+      "psc_code": "AZ11",
+      "psc_key": 811,
+      "psc_code_description": "R&D- OTHER RESEARCH"
+    }
+  ],
+  "Naics": [
+    {
+      "naics_code": "511210",
+      "naics_name": "Software Publishers"
+    },
+    {
+      "naics_code": "541330",
+      "naics_name": "Engineering Services"
+    },
+    {
+      "naics_code": "339112",
+      "naics_name": "Surgical and Medical Instrument manufacturing"
+    },
+    {
+      "naics_code": "541715",
+      "naics_name": "Research and Development in Sciences"
+    }
+  ],
+  "Category": [
+    {
+      "level2_category": "IT Software",
+      "level1_category": "Information Technology"
+    },
+    {
+      "level2_category": "Engineering Services",
+      "level1_category": "Professional Services"
+    },
+    {
+      "level2_category": "Medical Equipment",
+      "level1_category": "Health and Medical Supply"
+    },
+    {
+      "level2_category": "Energy R&D",
+      "level1_category": "Research and Development"
+    }
+  ],
+  "AwardType": [
+    {
+      "award_type_code": "F",
+      "award_type": "DELIVERY ORDER",
+      "award_type_key": 3
+    },
+    {
+      "award_type_code": "P",
+      "award_type": "PURCHASE ORDER",
+      "award_type_key": 4
+    },
+    {
+      "award_type_code": "A",
+      "award_type": "BPA CALL",
+      "award_type_key": 1
+    },
+    {
+      "award_type_code": "D",
+      "award_type": "DEFINITIVE CONTRACT",
+      "award_type_key": 2
+    }
+  ]
+}

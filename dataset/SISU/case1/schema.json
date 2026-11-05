@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generator": "SISU Database Designer",
+    "generated_at": "2026-09-10T00:00:00Z",
+    "tables_count": 5,
+    "relations_count": 4
+  },
+  "tables": [
+    {
+      "id": "table_1",
+      "name": "IES",
+      "type": "entity",
+      "fields": [
+        { "name": "CODIGO_IES", "type": "INTEGER", "constraints": { "primary_key": true, "nullable": false }, "description": "Unique identifier for each higher education institution" },
+        { "name": "NOME_IES", "type": "VARCHAR(255)", "constraints": { "nullable": false }, "description": "Full official name of the institution" },
+        { "name": "SIGLA_IES", "type": "VARCHAR(20)", "constraints": { "nullable": true }, "description": "Institution acronym (e.g., CEFET/RJ)" },
+        { "name": "UF_IES", "type": "VARCHAR(2)", "constraints": { "nullable": true }, "description": "Brazilian state where the institution is headquartered" },
+        { "name": "Rede_Ensino", "type": "VARCHAR(50)", "constraints": { "nullable": true }, "description": "Education network: Federal, Estadual, Municipal or Privada" },
+        { "name": "Categoria_Administrativa", "type": "VARCHAR(100)", "constraints": { "nullable": true }, "description": "Administrative category of the institution" },
+        { "name": "Website", "type": "VARCHAR(255)", "constraints": { "nullable": true }, "description": "Institution's official website URL" },
+        { "name": "Email_Institucional", "type": "VARCHAR(255)", "constraints": { "nullable": true }, "description": "Institutional contact email" },
+        { "name": "Telefone", "type": "VARCHAR(20)", "constraints": { "nullable": true }, "description": "Institutional contact phone number" },
+        { "name": "Numero_Total_Campus", "type": "INTEGER", "constraints": { "nullable": true }, "description": "Total number of campuses operated by the institution" }
+      ]
+    },
+    {
+      "id": "table_2",
+      "name": "Campus",
+      "type": "entity",
+      "fields": [
+        { "name": "CODIGO_CAMPUS", "type": "INTEGER", "constraints": { "primary_key": true, "nullable": false }, "description": "Unique identifier for each campus" },
+        { "name": "NOME_CAMPUS", "type": "VARCHAR(255)", "constraints": { "nullable": false }, "description": "Campus name" },
+        { "name": "UF_CAMPUS", "type": "VARCHAR(2)", "constraints": { "nullable": true }, "description": "Brazilian state where the campus is located" },
+        { "name": "MUNICIPIO_CAMPUS", "type": "VARCHAR(255)", "constraints": { "nullable": true }, "description": "City where the campus is located" },
+        { "name": "IES_ID", "type": "INTEGER", "constraints": { "foreign_key": true, "nullable": false }, "description": "References IES.CODIGO_IES" },
+        { "name": "Endereco", "type": "VARCHAR(255)", "constraints": { "nullable": true }, "description": "Campus street address" },
+        { "name": "CEP", "type": "VARCHAR(10)", "constraints": { "nullable": true }, "description": "Postal code of the campus" },
+        { "name": "Latitude", "type": "DECIMAL(9,6)", "constraints": { "nullable": true }, "description": "Campus geographic latitude" },
+        { "name": "Longitude", "type": "DECIMAL(9,6)", "constraints": { "nullable": true }, "description": "Campus geographic longitude" },
+        { "name": "Situacao", "type": "VARCHAR(20)", "constraints": { "nullable": true }, "description": "Operating status of the campus (Ativo, Inativo)" }
+      ]
+    },
+    {
+      "id": "table_3",
+      "name": "Curso",
+      "type": "entity",
+      "fields": [
+        { "name": "CODIGO_CURSO", "type": "VARCHAR(10)", "constraints": { "primary_key": true, "nullable": false }, "description": "Unique course code" },
+        { "name": "NOME_CURSO", "type": "VARCHAR(255)", "constraints": { "nullable": false }, "description": "Course name" },
+        { "name": "GRAU", "type": "VARCHAR(50)", "constraints": { "nullable": true }, "description": "Degree type (e.g., Bacharelado, Licenciatura, Tecnologico)" },
+        { "name": "TURNO", "type": "VARCHAR(50)", "constraints": { "nullable": true }, "description": "Course shift (Matutino, Vespertino, Noturno, Integral)" },
+        { "name": "PESO_L", "type": "DECIMAL(4,2)", "constraints": { "nullable": true }, "description": "Weight applied to the Languages (Linguagens) exam score" },
+        { "name": "PESO_CH", "type": "DECIMAL(4,2)", "constraints": { "nullable": true }, "description": "Weight applied to the Human Sciences (Ciencias Humanas) exam score" },
+        { "name": "PESO_CN", "type": "DECIMAL(4,2)", "constraints": { "nullable": true }, "description": "Weight applied to the Natural Sciences (Ciencias da Natureza) exam score" },
+        { "name": "PESO_M", "type": "DECIMAL(4,2)", "constraints": { "nullable": true }, "description": "Weight applied to the Mathematics exam score" },
+        { "name": "MEDIA_MINIMA", "type": "DECIMAL(6,2)", "constraints": { "nullable": true }, "description": "Minimum weighted average score required for approval" },
+        { "name": "Campus_ID", "type": "INTEGER", "constraints": { "foreign_key": true, "nullable": false }, "description": "References Campus.CODIGO_CAMPUS" }
+      ]
+    },
+    {
+      "id": "table_4",
+      "name": "Candidato",
+      "type": "entity",
+      "fields": [
+        { "name": "ID", "type": "INTEGER", "constraints": { "primary_key": true, "nullable": false }, "description": "Synthetic unique identifier for each candidate (not present in source data)" },
+        { "name": "Nome", "type": "VARCHAR(255)", "constraints": { "nullable": false }, "description": "Candidate full name" },
+        { "name": "Numero_Inscricao", "type": "VARCHAR(20)", "constraints": { "nullable": true }, "description": "Synthetic application/registration number" },
+        { "name": "Data_Nascimento", "type": "DATE", "constraints": { "nullable": true }, "description": "Candidate date of birth (synthetic, not present in source data)" },
+        { "name": "Genero", "type": "VARCHAR(50)", "constraints": { "nullable": true }, "description": "Candidate gender (synthetic, not present in source data)" },
+        { "name": "Email", "type": "VARCHAR(255)", "constraints": { "nullable": true }, "description": "Candidate contact email (synthetic, not present in source data)" },
+        { "name": "Telefone", "type": "VARCHAR(20)", "constraints": { "nullable": true }, "description": "Candidate contact phone (synthetic, not present in source data)" },
+        { "name": "UF_Residencia", "type": "VARCHAR(2)", "constraints": { "nullable": true }, "description": "Candidate's state of residence (synthetic, not present in source data)" },
+        { "name": "Municipio_Residencia", "type": "VARCHAR(255)", "constraints": { "nullable": true }, "description": "Candidate's city of residence (synthetic, not present in source data)" },
+        { "name": "Tipo_Escola_Origem", "type": "VARCHAR(50)", "constraints": { "nullable": true }, "description": "Type of school the candidate attended: Publica or Privada (synthetic, not present in source data)" }
+      ]
+    },
+    {
+      "id": "table_5",
+      "name": "Inscricao",
+      "type": "relation",
+      "fields": [
+        { "name": "CandidatoID", "type": "INTEGER", "constraints": { "foreign_key": true, "nullable": false }, "description": "References Candidato.ID" },
+        { "name": "CursoID", "type": "VARCHAR(10)", "constraints": { "foreign_key": true, "nullable": false }, "description": "References Curso.CODIGO_CURSO" },
+        { "name": "ANO", "type": "INTEGER", "constraints": { "nullable": false }, "description": "Selection process year" },
+        { "name": "EDICAO", "type": "INTEGER", "constraints": { "nullable": false }, "description": "Selection process edition within the year" },
+        { "name": "DS_ETAPA", "type": "VARCHAR(50)", "constraints": { "nullable": true }, "description": "Selection stage (e.g., LISTA DE ESPERA)" },
+        { "name": "TIPO_MOD_CONCORRENCIA", "type": "VARCHAR(10)", "constraints": { "nullable": true }, "description": "Competition modality type code" },
+        { "name": "MOD_CONCORRENCIA", "type": "VARCHAR(255)", "constraints": { "nullable": true }, "description": "Competition modality description (e.g., Ampla concorrencia)" },
+        { "name": "PERCENTUAL_BONUS", "type": "DECIMAL(5,2)", "constraints": { "nullable": true }, "description": "Bonus percentage applied to the candidate's score, when applicable" },
+        { "name": "OPCAO", "type": "INTEGER", "constraints": { "nullable": false }, "description": "Preference order of this course choice for the candidate (1st or 2nd option)" },
+        { "name": "CLASSIFICACAO", "type": "INTEGER", "constraints": { "nullable": true }, "description": "Candidate's ranking position on the waitlist for this course" },
+        { "name": "APROVADO", "type": "CHAR(1)", "constraints": { "nullable": false }, "description": "Approval flag: S (approved) or N (not approved)" }
+      ],
+      "relation_extraction": {
+        "enabled": false,
+        "document_sources": []
+      }
+    }
+  ],
+  "relations": [
+    { "id": "ref_1", "type": "many-to-one", "from": { "table": "Campus", "field": "IES_ID" }, "to": { "table": "IES", "field": "CODIGO_IES" } },
+    { "id": "ref_2", "type": "many-to-one", "from": { "table": "Curso", "field": "Campus_ID" }, "to": { "table": "Campus", "field": "CODIGO_CAMPUS" } },
+    { "id": "ref_3", "type": "many-to-one", "from": { "table": "Inscricao", "field": "CandidatoID" }, "to": { "table": "Candidato", "field": "ID" } },
+    { "id": "ref_4", "type": "many-to-one", "from": { "table": "Inscricao", "field": "CursoID" }, "to": { "table": "Curso", "field": "CODIGO_CURSO" } }
+  ],
+  "rules": [
+    {
+      "id": "agg_1",
+      "name": "candidate_option_limit",
+      "description": "Every candidate may register at most 2 course options (OPCAO) across all their Inscricao records",
+      "type": "AGGREGATION",
+      "severity": "ERROR",
+      "scope": "single_table",
+      "tables": ["Inscricao"],
+      "enabled": true,
+      "validation_logic": {
+        "constraint": "For each candidate, the number of distinct course options (OPCAO) must not exceed 2",
+        "check_method": "aggregation",
+        "aggregation_type": "count",
+        "group_by": "CandidatoID",
+        "max_value": 2
+      },
+      "fix_strategy": {
+        "method": "reextraction",
+        "description": "Re-extract application data from the document to fix option-count violations"
+      }
+    },
+    {
+      "id": "agg_2",
+      "name": "course_approval_capacity_limit",
+      "description": "Every course's approved-candidate capacity: COUNT(DISTINCT CandidatoID with APROVADO='S' per CursoID) <= 20",
+      "type": "AGGREGATION",
+      "severity": "ERROR",
+      "scope": "single_table",
+      "tables": ["Inscricao"],
+      "enabled": true,
+      "validation_logic": {
+        "constraint": "For each course, the number of approved candidates must not exceed 20",
+        "check_method": "aggregation",
+        "aggregation_type": "count",
+        "group_by": "CursoID",
+        "max_value": 20
+      },
+      "fix_strategy": {
+        "method": "reextraction",
+        "description": "Re-extract enrollment/approval data from the document to fix capacity violations"
+      }
+    }
+  ]
+}

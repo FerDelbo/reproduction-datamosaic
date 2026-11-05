@@ -1,0 +1,1822 @@
+{
+  "CommonGovernment": [
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 14.0,
+        "generated_value": 14.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "agency_code",
+      "expected_value": "14",
+      "generated_value": "14"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 500000.0,
+        "generated_value": 500000.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "baseandexercisedoptionsvalue",
+      "expected_value": 500000.0,
+      "generated_value": 500000.0
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "gsadollar",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 920.0,
+        "generated_value": 920.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "psc_key",
+      "expected_value": 920,
+      "generated_value": 920
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 50.0,
+        "generated_value": 50.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "count_total",
+      "expected_value": 50,
+      "generated_value": 50
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "vend_vendorname",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Bureau of Indian Affairs",
+        "generated_string": "Bureau of Indian Affairs"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "bureau_name",
+      "expected_value": "Bureau of Indian Affairs",
+      "generated_value": "Bureau of Indian Affairs"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "refidvid_piid",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "INQ142345",
+        "generated_string": "INQ142345"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "primary_contract_piid",
+      "expected_value": "INQ142345",
+      "generated_value": "INQ142345"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 701.0,
+        "generated_value": 701.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "ase_rowid",
+      "expected_value": 701,
+      "generated_value": 701
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Highway, Street, and Bridge Construction",
+        "generated_string": "Highway, Street, and Bridge Construction"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "naics_name",
+      "expected_value": "Highway, Street, and Bridge Construction",
+      "generated_value": "Highway, Street, and Bridge Construction"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6.0,
+        "generated_value": 6.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "bureau_code",
+      "expected_value": "06",
+      "generated_value": "06"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of the Interior",
+        "generated_string": "Department of the Interior"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "ag_name",
+      "expected_value": "Department of the Interior",
+      "generated_value": "Department of the Interior"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2500000.0,
+        "generated_value": 2500000.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "baseandalloptionsvalue",
+      "expected_value": 2500000.0,
+      "generated_value": 2500000.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS",
+        "generated_string": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "psc_code_description",
+      "expected_value": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS",
+      "generated_value": "CONSTRUCTION OF HIGHWAYS, ROADS, STREETS, BRIDGES, AND RAILWAYS"
+    },
+    {
+      "match": true,
+      "match_type": "date_normalized",
+      "similarity": 1.0,
+      "expected_type": "date",
+      "generated_type": "date",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "signeddate",
+      "expected_value": "2024-05-12 10:00:00",
+      "generated_value": "2024-05-12 10:00:00"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "numeric",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "funding_agency",
+      "expected_value": "NULL",
+      "generated_value": "1400"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2001.0,
+        "generated_value": 2001.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "recordid",
+      "expected_value": 2001,
+      "generated_value": 2001
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "gsaotherdollar",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "S",
+        "generated_string": "S"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "vend_contoffbussizedeterm",
+      "expected_value": "S",
+      "generated_value": "S"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2024.0,
+        "generated_value": 2024.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "year",
+      "expected_value": "2024",
+      "generated_value": "2024"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "obligatedamount_1",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Y1LB",
+        "generated_string": "Y1LB"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "psc_code",
+      "expected_value": "Y1LB",
+      "generated_value": "Y1LB"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1.0,
+        "generated_value": 1.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "number of records",
+      "expected_value": 1,
+      "generated_value": 1
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "whocanuse",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 140.0,
+        "generated_value": 140.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "funding_agency_key",
+      "expected_value": 140,
+      "generated_value": 140
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 334455667.0,
+        "generated_value": 334455667.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "vend_dunsnumber",
+      "expected_value": "334455667",
+      "generated_value": "334455667"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "INQ142345",
+        "generated_string": "INQ142345"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "a_aid_acontid_piid",
+      "expected_value": "INQ142345",
+      "generated_value": "INQ142345"
+    },
+    {
+      "match": true,
+      "match_type": "date_normalized",
+      "similarity": 1.0,
+      "expected_type": "date",
+      "generated_type": "date",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "contract_signeddate",
+      "expected_value": "2024-05-12",
+      "generated_value": "2024-05-12"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 500000.0,
+        "generated_value": 500000.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "obligatedamount",
+      "expected_value": 500000.0,
+      "generated_value": 500000.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOI",
+        "generated_string": "DOI"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "short_name",
+      "expected_value": "DOI",
+      "generated_value": "DOI"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1406.0,
+        "generated_value": 1406.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "contractingofficeagencyid",
+      "expected_value": "1406",
+      "generated_value": "1406"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 3.0,
+        "generated_value": 3.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "quarter",
+      "expected_value": "3",
+      "generated_value": "3"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "contract_num",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of the Interior",
+        "generated_string": "Department of the Interior"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "funding_agency_name",
+      "expected_value": "Department of the Interior",
+      "generated_value": "Department of the Interior"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "NM",
+        "generated_string": "NM"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "co_state",
+      "expected_value": "NM",
+      "generated_value": "NM"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 14.0,
+        "generated_value": 14.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "code",
+      "expected_value": "14",
+      "generated_value": "14"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1.0,
+        "generated_value": 1.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "count_fetched",
+      "expected_value": 1,
+      "generated_value": 1
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 237310.0,
+        "generated_value": 237310.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "naics_code",
+      "expected_value": "237310",
+      "generated_value": "237310"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "co_name",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "fk_epa_des_prod",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Highway Construction",
+        "generated_string": "Highway Construction"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "level2_category",
+      "expected_value": "Highway Construction",
+      "generated_value": "Highway Construction"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "cd_contactiontype",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "pbsdollar",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Y1LB",
+        "generated_string": "Y1LB"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "prod_or_serv_code",
+      "expected_value": "Y1LB",
+      "generated_value": "Y1LB"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2.0,
+        "generated_value": 2.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "award_type_key",
+      "expected_value": 2,
+      "generated_value": 2
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 500000.0,
+        "generated_value": 500000.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "nongsadollar",
+      "expected_value": 500000.0,
+      "generated_value": 500000.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "D",
+        "generated_string": "D"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "award_type_code",
+      "expected_value": "D",
+      "generated_value": "D"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "gwacs",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DEFINITIVE CONTRACT",
+        "generated_string": "DEFINITIVE CONTRACT"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "award_type",
+      "expected_value": "DEFINITIVE CONTRACT",
+      "generated_value": "DEFINITIVE CONTRACT"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Construction",
+        "generated_string": "Construction"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "level1_category",
+      "expected_value": "Construction",
+      "generated_value": "Construction"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "ftsdollar",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "prod_or_serv_code_desc",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.2692307692307693,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOI Field Operations",
+        "generated_string": "Department of the Interior"
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "description",
+      "expected_value": "DOI Field Operations",
+      "generated_value": "Department of the Interior"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1400.0,
+        "generated_value": 1400.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "1400",
+      "generated_value": "1400"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "fk_rec_mat",
+      "expected_value": 0,
+      "generated_value": 0
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1400.0,
+        "generated_value": 1400.0
+      },
+      "table": "commongovernment",
+      "row_index": 0,
+      "field": "refidvid_agencyid",
+      "expected_value": "1400",
+      "generated_value": "1400"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 69.0,
+        "generated_value": 69.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "agency_code",
+      "expected_value": "69",
+      "generated_value": "69"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 750000.0,
+        "generated_value": 750000.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "baseandexercisedoptionsvalue",
+      "expected_value": 750000.0,
+      "generated_value": 750000.0
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "gsadollar",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 850.0,
+        "generated_value": 850.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "psc_key",
+      "expected_value": 850,
+      "generated_value": 850
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 50.0,
+        "generated_value": 50.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "count_total",
+      "expected_value": 50,
+      "generated_value": 50
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "vend_vendorname",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Federal Aviation Administration",
+        "generated_string": "Federal Aviation Administration"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "bureau_name",
+      "expected_value": "Federal Aviation Administration",
+      "generated_value": "Federal Aviation Administration"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "refidvid_piid",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOT987654",
+        "generated_string": "DOT987654"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "primary_contract_piid",
+      "expected_value": "DOT987654",
+      "generated_value": "DOT987654"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 702.0,
+        "generated_value": 702.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "ase_rowid",
+      "expected_value": 702,
+      "generated_value": 702
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Air Traffic Control",
+        "generated_string": "Air Traffic Control"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "naics_name",
+      "expected_value": "Air Traffic Control",
+      "generated_value": "Air Traffic Control"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 20.0,
+        "generated_value": 20.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "bureau_code",
+      "expected_value": "20",
+      "generated_value": "20"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Transportation",
+        "generated_string": "Department of Transportation"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "ag_name",
+      "expected_value": "Department of Transportation",
+      "generated_value": "Department of Transportation"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 750000.0,
+        "generated_value": 750000.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "baseandalloptionsvalue",
+      "expected_value": 750000.0,
+      "generated_value": 750000.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER",
+        "generated_string": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "psc_code_description",
+      "expected_value": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER",
+      "generated_value": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: AIR CHARTER"
+    },
+    {
+      "match": true,
+      "match_type": "date_normalized",
+      "similarity": 1.0,
+      "expected_type": "date",
+      "generated_type": "date",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "signeddate",
+      "expected_value": "2023-11-05 15:30:00",
+      "generated_value": "2023-11-05 15:30:00"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6900.0,
+        "generated_value": 6900.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "funding_agency",
+      "expected_value": 6900,
+      "generated_value": "6900"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2002.0,
+        "generated_value": 2002.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "recordid",
+      "expected_value": 2002,
+      "generated_value": 2002
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "gsaotherdollar",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "O",
+        "generated_string": "O"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "vend_contoffbussizedeterm",
+      "expected_value": "O",
+      "generated_value": "O"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2024.0,
+        "generated_value": 2024.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "year",
+      "expected_value": "2024",
+      "generated_value": "2024"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "obligatedamount_1",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "V121",
+        "generated_string": "V121"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "psc_code",
+      "expected_value": "V121",
+      "generated_value": "V121"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1.0,
+        "generated_value": 1.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "number of records",
+      "expected_value": 1,
+      "generated_value": 1
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "whocanuse",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 690.0,
+        "generated_value": 690.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "funding_agency_key",
+      "expected_value": "690",
+      "generated_value": 690
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 998877665.0,
+        "generated_value": 998877665.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "vend_dunsnumber",
+      "expected_value": "998877665",
+      "generated_value": "998877665"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOT987654",
+        "generated_string": "DOT987654"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "a_aid_acontid_piid",
+      "expected_value": "DOT987654",
+      "generated_value": "DOT987654"
+    },
+    {
+      "match": true,
+      "match_type": "date_normalized",
+      "similarity": 1.0,
+      "expected_type": "date",
+      "generated_type": "date",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "contract_signeddate",
+      "expected_value": "2023-11-05",
+      "generated_value": "2023-11-05"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 750000.0,
+        "generated_value": 750000.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "obligatedamount",
+      "expected_value": 750000.0,
+      "generated_value": 750000.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOT",
+        "generated_string": "DOT"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "short_name",
+      "expected_value": "DOT",
+      "generated_value": "DOT"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6920.0,
+        "generated_value": 6920.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "contractingofficeagencyid",
+      "expected_value": "6920",
+      "generated_value": "6920"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 1.0,
+        "generated_value": 1.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "quarter",
+      "expected_value": "1",
+      "generated_value": "1"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOT987654-02",
+        "generated_string": "DOT987654-02"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "contract_num",
+      "expected_value": "DOT987654-02",
+      "generated_value": "DOT987654-02"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Department of Transportation",
+        "generated_string": "Department of Transportation"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "funding_agency_name",
+      "expected_value": "Department of Transportation",
+      "generated_value": "Department of Transportation"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "co_state",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 69.0,
+        "generated_value": 69.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "code",
+      "expected_value": "69",
+      "generated_value": "69"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 2.0,
+        "generated_value": 2.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "count_fetched",
+      "expected_value": 2,
+      "generated_value": 2
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 488111.0,
+        "generated_value": 488111.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "naics_code",
+      "expected_value": "488111",
+      "generated_value": "488111"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "FAA Regional Office",
+        "generated_string": "FAA Regional Office"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "co_name",
+      "expected_value": "FAA Regional Office",
+      "generated_value": "FAA Regional Office"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "fk_epa_des_prod",
+      "expected_value": "0",
+      "generated_value": 0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Air Traffic Control",
+        "generated_string": "Air Traffic Control"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "level2_category",
+      "expected_value": "Air Traffic Control",
+      "generated_value": "Air Traffic Control"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "cd_contactiontype",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "pbsdollar",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "V121",
+        "generated_string": "V121"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "prod_or_serv_code",
+      "expected_value": "V121",
+      "generated_value": "V121"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 3.0,
+        "generated_value": 3.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "award_type_key",
+      "expected_value": 3,
+      "generated_value": 3
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 725000.0,
+        "generated_value": 725000.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "nongsadollar",
+      "expected_value": 725000.0,
+      "generated_value": 725000.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "F",
+        "generated_string": "F"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "award_type_code",
+      "expected_value": "F",
+      "generated_value": "F"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 0.0,
+        "generated_value": 0.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "gwacs",
+      "expected_value": 0.0,
+      "generated_value": 0.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DELIVERY ORDER",
+        "generated_string": "DELIVERY ORDER"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "award_type",
+      "expected_value": "DELIVERY ORDER",
+      "generated_value": "DELIVERY ORDER"
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "Transportation",
+        "generated_string": "Transportation"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "level1_category",
+      "expected_value": "Transportation",
+      "generated_value": "Transportation"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 25000.0,
+        "generated_value": 25000.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "ftsdollar",
+      "expected_value": 25000.0,
+      "generated_value": 25000.0
+    },
+    {
+      "match": true,
+      "match_type": "string_similar",
+      "similarity": 1.0,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "AIR CHARTER",
+        "generated_string": "AIR CHARTER"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "prod_or_serv_code_desc",
+      "expected_value": "AIR CHARTER",
+      "generated_value": "AIR CHARTER"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.1785714285714286,
+      "expected_type": "string",
+      "generated_type": "string",
+      "details": {
+        "expected_string": "DOT Infrastructure Support",
+        "generated_string": "Department of Transportation"
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "description",
+      "expected_value": "DOT Infrastructure Support",
+      "generated_value": "Department of Transportation"
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6900.0,
+        "generated_value": 6900.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "a_aid_acontid_agencyid",
+      "expected_value": "6900",
+      "generated_value": "6900"
+    },
+    {
+      "match": false,
+      "match_type": "none",
+      "similarity": 0.0,
+      "expected_type": "string",
+      "generated_type": "null",
+      "details": {},
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "fk_rec_mat",
+      "expected_value": "NULL",
+      "generated_value": null
+    },
+    {
+      "match": true,
+      "match_type": "exact_numeric",
+      "similarity": 1.0,
+      "expected_type": "numeric",
+      "generated_type": "numeric",
+      "details": {
+        "decimal_precision_match": true,
+        "expected_value": 6900.0,
+        "generated_value": 6900.0
+      },
+      "table": "commongovernment",
+      "row_index": 1,
+      "field": "refidvid_agencyid",
+      "expected_value": "6900",
+      "generated_value": "6900"
+    }
+  ]
+}
